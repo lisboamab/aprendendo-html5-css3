@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>marcos lisboa</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/marcosavatar.png" alt="Avatar do autor do site" id="avatar">
+            <h1 id="title">site do marcos</h1>
+        </header>
+        <section>
+            <header>
+                <h2 class="subtitle">Postagens</h2>
+            </header>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Postagem #1</h3>
+                    <img src="img/codeimg2.jpg" alt="Editor de texto contendo condigo HTML5" class="landimg_post">
+                </header>
+                <p class="post_content">
+                    Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Per aumento de cachacis, eu reclamis.
+                    Aenean aliquam molestie leo, vitae iaculis nisl.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Quem manda na minha terra sou euzis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+                </p>
+            </article>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Postagem #2</h3>
+                    <img src="img/codeimg2.jpg" alt="Editor de texto contendo condigo HTML5" class="landimg_post">
+                    </header>
+                <p class="post_content">
+                    <abbr title="Mussum Ipsum é a linguagem generica do Mussum">Mussum</abbr> Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Per aumento de cachacis, eu reclamis.
+                    Aenean aliquam molestie leo, vitae iaculis nisl.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Quem manda na minha terra sou euzis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+                </p>
+            </article>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Postagem #3</h3>
+                    <img src="img/codeimg2.jpg" alt="Editor de texto contendo condigo HTML5" class="landimg_post">
+                    </header>
+                <p class="post_content">
+                    <abbr title="Python é uma linguagem de programação">Python</abbr> é uma linguagem de programação e a seguir vocês verão um script simples da linguagem
+                </p>
+                <pre>
+                    <code class="python">
+ #Exercicio do dia 4 do bootcamp codigo[s]
+
+aluno = input("Qual é o nome do aluno?")
+
+nota1 = float(input("Digite a primeira nota: "))
+
+nota2 = float(input("Digite a segunta nota: "))
+
+nota3 = float(input("Digite a terceira nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+nota_minima_rec = 6
+nota_minima_apr = 7
+
+if media >= nota_minima_apr:
+    status = "aprovado"
+elif media >= nota_minima_rec:
+    status = "recuperação"
+    print(f"\nAluno está de {status}\n")
+    nota_rec = float(input("Digite a nota da Recuperação: "))
+    mediafinal = (nota_rec + media) / 2
+
+    if mediafinal >= 7:
+        status = "aprovado por recuperação"
+else:
+status = "reprovado"
+
+media_final = round(media, 2)
+
+print (f"\nA média do aluno {aluno} é {media_final} e o mesmo está {status} ")
+                    </code>
+                </pre>
+            </article>
+        </section>
+        <footer>
+            <address>
+                <ul class="contacts_list"> <!-- Lista não ordenada de contatos-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/lisboamab/" target="_blank">linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/lisboamab" target="_blank">github</a>
+                    </li>
+                    <li>  
+                        <a href="mailto:lisboamab@gmail.com" target="_blank">e-mail</a> 
+                    </li>
+                </ul>
+            </address>
+         </footer>
+    </body>
+
+</html>
